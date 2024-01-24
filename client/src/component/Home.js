@@ -1,6 +1,7 @@
 import React from 'react'
 import Caption from './Caption'
 import Projects from './Projects'
+import './Home.css'
 
 export default function Home() {
   return (

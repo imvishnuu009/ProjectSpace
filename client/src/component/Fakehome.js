@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import Login from './Login';
 import Register from './Register';
-
+import './fakehome.css'
 export default function Fakehome({ setIsAuthenticated }) {
   const [isLoginActive, setLoginActive] = useState(true);
 
