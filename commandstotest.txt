@@ -1,0 +1,10 @@
+1. projects upload :
+curl -X POST http://localhost:3000/projectUpload -H "Content-Type: multipart/form-data" -F "file=@\"C:\Users\Sudha\OneDrive\Documents\Joyfrank sebastian.pdf\"" -F "title=Test Project" -F "description=This is a test project" -F "universityname=Test University" -F "author=Test Author" -F "tags=[\"test\", \"demo\"]" -F "email=test@example.com"
+2. project update:
+curl -X POST http://localhost:3000/projectUpdate/6555bea3c0fe297d6af8bf0a -H "Content-Type: application/json" -d "{\"title\": \"New title\", \"description\": \"Updated description\", \"tags\": [\"new tag1\", \"new tag2\"], \"email\": \"baigan@gmail.com\" }"
+3.register:
+curl -X POST -H "Content-Type: application/json" -d "{\"username\": \"frank\", \"password\": \"kaioken\"}" http://localhost:3000/register
+4.login:
+curl -X POST -H "Content-Type: application/json" -d "{\"username\": \"your_username\", \"password\": \"your_password\"}" http://localhost:3000/login
+
+Z9Thd2grWzzV4JZ
