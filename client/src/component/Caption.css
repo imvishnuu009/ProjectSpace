@@ -1,0 +1,7 @@
+.container{
+              height:"40vw";
+             background-color:#86A7FC;
+             display:"flex";
+             justify-content:"center";
+             align-items:"center";
+}

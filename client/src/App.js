@@ -13,7 +13,7 @@ import Uploadsuccess from './component/Uploadsuccess';
 import SearchFeed from './component/SearchFeed';
 import Otherprofile from './component/otherprofile';
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
   const [userData, setUserData] = useState({ username: '', token: '' });
 
   return (
