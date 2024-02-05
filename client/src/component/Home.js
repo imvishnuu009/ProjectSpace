@@ -2,6 +2,7 @@ import React from 'react'
 import Caption from './Caption'
 import Projects from './Projects'
 import './Home.css'
+import './sidebar'
 
 export default function Home() {
   return (

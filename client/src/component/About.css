@@ -1,8 +1,19 @@
-#panelsStayOpen-collapseOne{
-    background-color: burlywood;
-    border: 2rem;
-    border-color: black;
-}
-p{
-    color:darkblue;
-}
+/* About.css */
+
+.container {
+    max-width: fit-content; /* Adjust the maximum width of the container as needed */
+    margin: auto;
+  }
+  
+  .accordion-button {
+    background-color: #007bff; /* Change the background color of the accordion button */
+    color: #fff; /* Change the text color of the accordion button */
+  }
+  
+  .accordion-body {
+    background-color: #f8f9fa; /* Change the background color of the accordion body */
+    padding: 20px; /* Add some padding to the accordion body */
+  }
+  
+  /* Add any additional styles based on your design preferences */
+  

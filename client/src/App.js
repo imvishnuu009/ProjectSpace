@@ -12,10 +12,12 @@ import ProjectsUpload from './component/ProjectsUpload'; // Import ProjectUpload
 import Uploadsuccess from './component/Uploadsuccess';
 import SearchFeed from './component/SearchFeed';
 import Otherprofile from './component/otherprofile';
+// import Sidebar from './component/sidebar';
+import './App.css'
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(true);
   const [userData, setUserData] = useState({ username: '', token: '' });
-
+  const [style,setStyle] =useState({color:"blue",})
   return (
     <Router>
       <Navbar isAuthenticated={isAuthenticated} />
