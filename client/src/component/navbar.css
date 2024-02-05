@@ -1,0 +1,7 @@
+.navbar bg-body-tertiary fixed-top {
+    align-items: center;
+    display: flex;
+    height: 64px;
+    padding-left: calc(env(safe-area-inset-left) + 16px);
+    padding-right: calc(env(safe-area-inset-left) + 16px);
+}
